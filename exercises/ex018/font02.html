@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url(fonts/LoveMatch.otf)format('opentype'), url(fonts/LoveMatch.ttf)format('truetype');
+            font-weight: normal;
+        }
+        body {
+            font-family: 'love',Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'love';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aliquam voluptates autem! Dicta, libero modi labore unde consequuntur explicabo possimus suscipit commodi hic necessitatibus incidunt obcaecati, similique, numquam recusandae debitis?
+    </p>
+</body>
+</html>
